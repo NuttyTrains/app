@@ -1,58 +1,42 @@
 const container = document.querySelector(".container");
-const coffees = [
+const adventures = [
   {
-    name: "Perspiciatis",
-    image: "images/coffee1.jpg"
+    name: "Alpha",
+    image: "images/alpha.jpg"
   },
   {
-    name: "Voluptatem",
-    image: "images/coffee2.jpg"
+    name: "Beta",
+    image: "images/beta.jpg"
   },
   {
-    name: "Explicabo",
-    image: "images/coffee3.jpg"
+    name: "Sampi",
+    image: "images/sampi1.jpg"
   },
   {
-    name: "Rchitecto",
-    image: "images/coffee4.jpg"
+    name: "Koppa",
+    image: "images/koppa1.jpg"
   },
   {
-    name: " Beatae",
-    image: "images/coffee5.jpg"
+    name: " Aleph",
+    image: "images/aleph.jpg"
   },
-  {
-    name: " Vitae",
-    image: "images/coffee6.jpg"
-  },
-  {
-    name: "Inventore",
-    image: "images/coffee7.jpg"
-  },
-  {
-    name: "Veritatis",
-    image: "images/coffee8.jpg"
-  },
-  {
-    name: "Accusantium",
-    image: "images/coffee9.jpg"
-  }
 ];
-const showCoffees = () => {
+const showAdventures = () => {
   let output = "";
-  coffees.forEach(
+  adventures.forEach(
     ({ name, image }) =>
       (output += `
               <div class="card">
                 <img class="card--avatar" src=${image} />
                 <h1 class="card--title">${name}</h1>
-                <a class="card--link" href="#">Taste</a>
+                <a class="card--link" href="#">Read More...</a>
               </div>
               `)
   );
   container.innerHTML = output;
 };
 
-document.addEventListener("DOMContentLoaded", showCoffees);
+document.addEventListener("DOMContentLoaded", showAdventures);
 
 if ("serviceWorker" in navigator) {
   window.addEventListener("load", function() {
