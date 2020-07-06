@@ -1,23 +1,24 @@
-const staticDevCoffee = "dev-coffee-site-v1"
+const staticDevAdventures = "dev-coffee-site-v1"
 const assets = [
   "/",
   "/index.html",
   "/css/style.css",
   "/js/app.js",
-  "/images/coffee1.jpg",
-  "/images/coffee2.jpg",
-  "/images/coffee3.jpg",
-  "/images/coffee4.jpg",
-  "/images/coffee5.jpg",
-  "/images/coffee6.jpg",
-  "/images/coffee7.jpg",
-  "/images/coffee8.jpg",
-  "/images/coffee9.jpg",
+  "/images/alpha.jpg",
+  "/images/beta.jpg",
+  "/images/sampi1.jpg",
+  "/images/sampi2.jpg",
+  "/images/sampi3.jpg",
+  "/images/sampi4.jpg",
+  "/images/sampi5.jpg",
+  "/images/koppa1.jpg",
+  "/images/koppa2.jpg",
+  "/images/aleph.jpg",
 ]
 
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
-    caches.open(staticDevCoffee).then(cache => {
+    caches.open(staticDevAdventures).then(cache => {
       cache.addAll(assets)
     })
   )
