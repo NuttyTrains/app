@@ -17,7 +17,7 @@ const adventures = [
     image: "images/koppa1.jpg"
   },
   {
-    name: " Aleph",
+    name: "Aleph",
     image: "images/aleph.jpg"
   },
 ];
@@ -29,7 +29,7 @@ const showAdventures = () => {
               <div class="card">
                 <img class="card--avatar" src=${image} />
                 <h1 class="card--title">${name}</h1>
-                <a class="card--link" href="#">Read More...</a>
+                <a class="card--link" href="./adIndex/${name}.html">Read More...</a>
               </div>
               `)
   );
