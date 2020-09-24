@@ -18,7 +18,11 @@ const adventures = [
   },
   {
     name: "Aleph",
-    image: "images/aleph.jpg"
+    image: "images/aleph10.jpg"
+  },
+  {
+    name: "R0",
+    image: "images/r03.jpg"
   },
 ];
 const showAdventures = () => {
