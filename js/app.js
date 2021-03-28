@@ -24,6 +24,10 @@ const adventures = [
     name: "R0",
     image: "images/r03.jpg"
   },
+  {
+    name: "Digamma",
+    image: "images/digammaplan.jpg"
+  },
 ];
 const showAdventures = () => {
   let output = "";
