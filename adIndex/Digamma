@@ -39,7 +39,7 @@
 	
 <script>
 $(function(){
-  $("#sampi-placeholder").load("https://nuttytrains.net/digamma.html");
+  $("#digamma-placeholder").load("https://nuttytrains.net/digamma.html");
 });
 	
 var coll = document.getElementsByClassName("collapsible");
