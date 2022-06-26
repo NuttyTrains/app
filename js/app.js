@@ -26,7 +26,15 @@ const adventures = [
   },
   {
     name: "Digamma",
-    image: "images/digammaplan.jpg"
+    image: "images/digamma.jpg"
+  },
+  {
+    name: "Xi",
+    image: "images/xi4.jpg"
+  },
+  {
+    name: "∮",
+    image: "images/ntci.png"
   },
 ];
 const showAdventures = () => {
